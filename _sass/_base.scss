@@ -285,6 +285,10 @@ ul.task-list input[type="checkbox"] {
 
   .navbar-brand {
     color: #{$white-color} !important;
+    
+    span {
+      color: #{$white-color} !important;
+    }
   }
 
   .navbar-nav .nav-item .nav-link {
@@ -388,7 +392,7 @@ ul.task-list input[type="checkbox"] {
   padding: 0;
   border: 0;
   background-color: inherit;
-  color: var(--global-text-color);
+  color: #{$white-color} !important;
 
   &:hover {
     color: var(--global-hover-color);
