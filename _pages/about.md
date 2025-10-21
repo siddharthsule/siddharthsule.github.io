@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: PhD Student, working on Particle Physics Simulation
 
@@ -9,7 +9,7 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Office 6.08, Schuster Building/p>
+    <p>Schuster Building 6.08</p>
     <p>The University of Manchetser</p>
     <p>Manchester, M13 9PL</p>
     <p>United Kingdom<p>
