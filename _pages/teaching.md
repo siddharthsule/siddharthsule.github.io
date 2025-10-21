@@ -6,17 +6,23 @@ nav: true
 nav_order: 4
 ---
 
+## Herwig Event Generation Tutorials
+
+Our collaboration does a tutorial to show how one can simulate particle collisions at the LHC. The tutorial starts by exploring the anatomy of a proton-proton collision using simple runs, then leads into showcasing the features inside Herwig. A docker container is provided to run without installing.
+
+[phab.hepforge.org/w/herwigtutorial/](https://phab.hepforge.org/w/herwigtutorial/)
+
 ## GPU Tutorials for the Particle Physicist
 
-Based on my projects, I have written some tutorials on how common computations in particle physics can be paralllelised to run on GPUs. Most tutorials are in CUDA C++ and Python (using Numba for GPUs)
+Based on my projects, I have written some tutorials on how common computations in particle physics can be paralllelised to run on GPUs. Most tutorials are in CUDA C++ and Python (using Numba for GPUs).
 
 [gitlab.com/siddharthsule/hep-gpu-tutorials](https://gitlab.com/siddharthsule/hep-gpu-tutorials)
 
-## Lab Demonstration Materials
+<!-- ## Lab Demonstration Materials
 
-Some demonstration materials here.
+Some demonstration materials here. -->
 
-## Exam Marking
+## Exam Guidance for Physics and Mathematics Students
 
 Throughout my PhD, I was involved in marking first and second year exams. Every semester I marked one out of the four questions given to students. After four terms, and approximating 300 students per exams, I have marked about *1200 papers!*
 
