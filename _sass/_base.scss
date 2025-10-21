@@ -246,16 +246,16 @@ ul.task-list input[type="checkbox"] {
 .navbar {
   box-shadow: none;
   border-bottom: 1px solid var(--global-divider-color);
-  background-color: var(--global-bg-color);
+  background-color: #{$black-color} !important;
   opacity: 0.95;
 }
 
 .navbar .dropdown-menu {
-  background-color: var(--global-bg-color);
+  background-color: #{$black-color} !important;
   border: 1px solid var(--global-divider-color);
 
   a:not(.active) {
-    color: var(--global-text-color);
+    color: #{$white-color} !important;
   }
 
   a:hover {
@@ -268,11 +268,11 @@ ul.task-list input[type="checkbox"] {
 }
 
 .dropdown-item {
-  color: var(--global-text-color);
+  color: #{$white-color} !important;
 
   &:hover {
     color: var(--global-hover-color);
-    background-color: var(--global-bg-color);
+    background-color: #{$black-color} !important;
   }
 }
 
@@ -284,11 +284,11 @@ ul.task-list input[type="checkbox"] {
   }
 
   .navbar-brand {
-    color: var(--global-text-color);
+    color: #{$white-color} !important;
   }
 
   .navbar-nav .nav-item .nav-link {
-    color: var(--global-text-color);
+    color: #{$white-color} !important;
 
     &:hover {
       color: var(--global-hover-color);
@@ -330,7 +330,7 @@ ul.task-list input[type="checkbox"] {
       }
 
       i::before {
-        color: var(--global-text-color);
+        color: #{$white-color} !important;
         transition-property: all 0.2s ease-in-out;
       }
 
