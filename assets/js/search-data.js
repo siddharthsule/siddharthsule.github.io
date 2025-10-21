@@ -28,7 +28,7 @@ ninja.data = [{
           description: "My CV, available as both PDF and as this webpage. Simply click the pdf icon to download it.",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/cv/";
+            window.location.href = "/assets/pdf/Siddharth_Sule_CV.pdf";
           },
         },{id: "projects-nll-accurate-showers-in-herwig",
           title: 'NLL Accurate Showers in Herwig',
