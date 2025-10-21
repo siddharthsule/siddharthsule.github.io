@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: PhD Student, working on Particle Physics Simulation
+subtitle: Particle Physics | Monte Carlo Simulations | GPUs
 
 profile:
   align: right
@@ -18,10 +18,12 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Hi! I'm Sid.
+Hi! I am a student at the University of Manchester, doing a PhD in Particle Physics.
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+My work involved using Monte Carlo Methods and Object-Oriented Programming to simulate particle collisions at the Large Hadron Collider at CERN. I work on the [Herwig](https://herwig.hepforge.org/) collider simulation programme, which has been in use for over 40 years (in many incarnations).
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+Specifically, I work on simulating the emissions of particles before and after a collision, which is the source of the hundreds of particles observed in every event. My PhD project involves applying Perturbative Quantum Chromodynamics to improve the accuracy of these simulations in preparation for the next run of the Large Hadron Collider.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I also work on hardware-accelerated simulation code. My supervisor and I have developed algorithms to parallelise these simulations and released a programme for GPU-accelerated simulation called [GAPS](https://gitlab.com/siddharthsule/gaps), offering the speed of computer clusters on laptops and PCs.
+
+On this page, you can find my publications and teaching resources. Links to my email, repositories, and blogs are below.
