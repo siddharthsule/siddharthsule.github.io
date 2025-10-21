@@ -6,12 +6,17 @@ nav: true
 nav_order: 4
 ---
 
+## GPU Tutorials for the Particle Physicist
 
-# Lab Demonstration Materials
+Based on my projects, I have written some tutorials on how common computations in particle physics can be paralllelised to run on GPUs. Most tutorials are in CUDA C++ and Python (using Numba for GPUs)
+
+[gitlab.com/siddharthsule/hep-gpu-tutorials](https://gitlab.com/siddharthsule/hep-gpu-tutorials)
+
+## Lab Demonstration Materials
 
 Some demonstration materials here.
 
-# Exam Marking
+## Exam Marking
 
 Throughout my PhD, I was involved in marking first and second year exams. Every semester I marked one out of the four questions given to students. After four terms, and approximating 300 students per exams, I have marked about *1200 papers!*
 

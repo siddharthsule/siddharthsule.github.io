@@ -5,6 +5,7 @@ description: a project with no image
 img:
 importance: 4
 category: fun
+permalink: /projects/6_project/
 ---
 
 Every project has a beautiful feature showcase page.

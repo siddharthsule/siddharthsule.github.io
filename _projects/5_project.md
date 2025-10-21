@@ -5,6 +5,7 @@ description: a project with a background image
 img: assets/img/1.jpg
 importance: 3
 category: fun
+permalink: /projects/5_project/
 ---
 
 Every project has a beautiful feature showcase page.
