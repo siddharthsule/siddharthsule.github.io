@@ -12,7 +12,7 @@ As a possible solution, we have been looking towards GPUs for faster, more energ
 
 You can refer to our paper below. Our next paper and code, to simulate LHC physics is underway.
 
-[M. H. Seymour and S. Sule, _An Algorithm to Parallelise Parton Showers on a GPU_, SciPost Physics Codebases 33, 2024](https://scipost.org/SciPostPhysCodeb.33)
+[M. H. Seymour and S. Sule, An Algorithm to Parallelise Parton Showers on a GPU, SciPost Physics Codebases 33, 2024](https://scipost.org/SciPostPhysCodeb.33)
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
