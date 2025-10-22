@@ -37,16 +37,16 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/assets/pdf/Siddharth_Sule_CV.pdf";
           },
-        },{id: "projects-nll-accurate-showers-in-herwig",
-          title: 'NLL Accurate Showers in Herwig',
-          description: "with background image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/1_project/";
-            },},{id: "projects-parton-showers-on-gpus-with-gaps",
+        },{id: "projects-parton-showers-on-gpus-with-gaps",
           title: 'Parton Showers on GPUs with GAPS',
-          description: "a project with a background image and giscus comments",
+          description: "",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/2_project/";
+              window.location.href = "/projects/gpu-parton-shower-gaps/";
+            },},{id: "projects-nll-accurate-showers-in-herwig",
+          title: 'NLL Accurate Showers in Herwig',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/nll-parton-shower-herwig/";
             },},{
         id: 'social-email',
         title: 'email',
@@ -87,7 +87,7 @@ ninja.data = [{
         title: 'LinkedIn',
         section: 'Socials',
         handler: () => {
-          window.open("https://www.linkedin.com/in/siddharthsule", "_blank");
+          window.open("https://www.linkedin.com/in/siddharth-sule", "_blank");
         },
       },{
       id: 'light-theme',
