@@ -35,7 +35,7 @@ ninja.data = [{
           description: "My CV, available as both PDF and as this webpage. Simply click the pdf icon to download it.",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/assets/pdf/Siddharth_Sule_CV.pdf";
+            window.location.href = "/cv/";
           },
         },{id: "projects-parton-showers-on-gpus-with-gaps",
           title: 'Parton Showers on GPUs with GAPS',
