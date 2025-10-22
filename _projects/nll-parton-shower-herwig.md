@@ -25,5 +25,3 @@ The aim of this project is to implement the PanGlobal and FHP Models into [Herwi
 <div class="caption">
     The Thrust and the Durham $y_{23}$ Observables. Made from LEP Simulations at NLO with cluster hadronisation.
 </div>
-
-{% endraw %}
