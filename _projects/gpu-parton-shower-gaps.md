@@ -6,14 +6,39 @@ importance: 2
 permalink: /projects/gpu-parton-shower-gaps/
 ---
 
-While we have been seeing exciting progress in theory, we must also prepare for a computational challenge - [studies at CERN](https://cds.cern.ch/record/2802918?ln=en) predict that compute usage is set to surpass the allocated budget in the upcoming Run 4. When studying the details, a key contribution comes from Monte Carlo Event Generators. There is also a need to address the ever-increasing compute resources required for theory and phenomenology studies using event generators.
+Upcoming LHC runs will not only push experimental precision — they will also
+push computing demands to new limits. Recent [CERN studies](https://cds.cern.ch/record/2802918?ln=en)
+indicate that simulation workloads are set to exceed the computing budget for
+Run 4. Monte Carlo event generators are one of the largest contributors to
+this increase, both for experimental and theoretical needs.
 
-As a possible solution, we have been looking towards GPUs for faster, more energy-efficient simulations, or at the least, an alternative to CPU clusters. Through this we have developed GAPS, a GPU Hard Process and Parton Shower Simulation Code. We designed our code to work on CPUs and GPUs, and ran benchmarks for both LEP and LHC simulations. We demonstrated that the time and energy consumption of a GPU to simulate 1,000,000 events is on par with cpu clusters.
+To address this challenge, we are exploring GPU acceleration for fast and
+energy-efficient event simulation. Our goal is to provide a practical
+alternative to CPU clusters while maintaining physics fidelity.
 
-You can refer to our papers below.
+This effort has led to **GAPS**: a GPU-accelerated hard process and parton
+shower event generator. GAPS supports both CPU and GPU execution and has been
+benchmarked on LEP- and LHC-like simulations. We have demonstrated that a single modern GPU can simulate **1,000,000 events**
+with **comparable throughput and lower energy consumption** than multi-node
+CPU clusters.
 
-[M. H. Seymour and S. Sule, An Algorithm to Parallelise Parton Showers on a GPU, SciPost Physics Codebases 33, 2024](https://scipost.org/SciPostPhysCodeb.33) \
-[M. H. Seymour and S. Sule,An NLO-Matched Initial and Final State Parton Shower on a GPU, ArXiV2511.19633, 2025](https://arxiv.org/abs/2511.19633)
+More details can be found in our publications:
+
+📄 **Publications**
+
+- M. H. Seymour & S. Sule, *An Algorithm to Parallelise Parton Showers on a GPU*,  
+  *SciPost Physics Codebases* **33** (2024)  
+  <https://scipost.org/SciPostPhysCodeb.33>
+
+- M. H. Seymour & S. Sule, *An NLO-Matched Initial and Final State Parton Shower on a GPU*,  
+  *arXiv:2511.19633* (2025)  
+  <https://arxiv.org/abs/2511.19633>
+
+💻 **Code**
+
+- **GAPS** — GPU-Amplified Parton Shower  
+  <https://gitlab.com/siddharthsule/gaps>
+
 
 
 <div class="row">
