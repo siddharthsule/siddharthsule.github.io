@@ -42,8 +42,8 @@ ninja.data = [{
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/gpu-parton-shower-gaps/";
-            },},{id: "projects-nll-accurate-showers-in-herwig",
-          title: 'NLL Accurate Showers in Herwig',
+            },},{id: "projects-improving-parton-shower-physics-in-herwig-7",
+          title: 'Improving Parton Shower Physics in Herwig 7',
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/nll-parton-shower-herwig/";
@@ -67,13 +67,6 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("https://gitlab.com/siddharthsule", "_blank");
-        },
-      },{
-        id: 'social-inspire',
-        title: 'Inspire HEP',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://inspirehep.net/authors/2768399", "_blank");
         },
       },{
         id: 'social-instagram',
