@@ -1,6 +1,6 @@
 ---
 layout: cv
-permalink: /assets/pdf/Siddharth_Sule_CV.pdf
+permalink: /cv/
 title: CV
 nav: true
 nav_order: 5
