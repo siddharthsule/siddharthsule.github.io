@@ -139,6 +139,13 @@ defaults:
 
 sass:
   style: compressed
+  # al-folio's vendored SCSS (font-awesome, tabler-icons) and the @import-based
+  # partial structure use syntax deprecated ahead of Dart Sass 3.0. These are
+  # upstream theme warnings, not errors; silence them to keep build output clean.
+  quiet_deps: true
+  silence_deprecations:
+    - import
+    - global-builtin
 
 # -----------------------------------------------------------------------------
 # Jekyll Minifier
