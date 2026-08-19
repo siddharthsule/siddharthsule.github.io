@@ -18,9 +18,9 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Hi! I'm a PhD student in particle physics at the University of Manchester.
+Hi! I'm a recent PhD graduate in particle physics at the University of Manchester.
 
-I develop high-performance simulation software to model particle collisions at the Large Hadron Collider (CERN). My research focuses on Monte Carlo methods, object-oriented programming, and GPU acceleration.
+I develop event generators, software that combines Monte Carlo simulation with object-oriented programming to model high-energy particle collisions, providing theory predictions for experiments at CERN's Large Hadron Collider.
 
 I contribute to [Herwig](https://herwig.hepforge.org/), a collider event generator used worldwide for over 40 years, and co-developed [GAPS](https://gitlab.com/siddharthsule/gaps), a GPU-parallelised parton shower that delivers cluster-level speed-up on a single GPU.
 

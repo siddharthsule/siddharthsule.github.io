@@ -46,3 +46,6 @@ More details can be found in our publications:
         {% include figure.liquid loading="eager" path="assets/img/cpugpu.png" title="execution time" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
+<div class="caption">
+    Execution Time and Energy Consumption of the CPU and GPU runs. Here the GPU code was run on an NVIDIA V100, and the CPU code was run on a 96-core CPU cluster node.
+</div>
